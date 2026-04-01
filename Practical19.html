@@ -1,0 +1,51 @@
+<html>
+    <head>
+       <title>Practical19</title>
+       <link rel="stylesheet" href="../CSS/practical19.css">
+    </head>
+    <body>
+        
+        <!-- Header section -->
+         <div class="header">
+            <P>Chinmoy kalita</P>
+         </div>
+         <!-- Main section -->
+          <div class="content">
+            <div class="Date and time">
+                <p>Date and time</p>
+                <script>
+                    let display = new Date();
+                    document.write("Todays date and time is: " + display);
+                </script>
+                </div>
+            <div class ="math"
+            onpointerenter="math">
+               <p>Math</p>
+               <script>
+                let num=45;
+                document.write(Math.floor(Math.random()*100 + 1));
+               </script>
+            <div class="string">
+                <p>String</p>
+                <script>
+                    let name = "Chinmoy";
+                    document.write(name);
+                    document.write("<br>" + name.substring(4,8));
+                    document.write("<br"+name.length);
+                    document.getElementById("name").innerHTML ="Hello World!";
+
+                </script>
+            </div>
+            </div>
+            <div class="js">
+            <script>
+            
+            </script>
+            </div>
+     
+          <!-- Footersection -->
+           <div class="footer">
+            <p>&copy;chinmoy</p>
+           </div>
+    </body>
+</html>
